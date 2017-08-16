@@ -1,0 +1,38 @@
+{
+  "name": "testarmada-magellan-fast-bail-strategy",
+  "version": "1.0.0",
+  "description": "strategy that bales magellan suite as long as one test fails",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TestArmada/magellan-fast-bail-strategy.git"
+  },
+  "keywords": [
+    "magellan",
+    "strategy",
+    "bail",
+    "fast_bail"
+  ],
+  "author": "Lei Zhu <thunderzhulei@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TestArmada/magellan-fast-bail-strategy/issues"
+  },
+  "homepage": "https://github.com/TestArmada/magellan-fast-bail-strategy#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "chai": "^3.4.1",
+    "chai-as-promised": "^6.0.0",
+    "codecov": "^1.0.1",
+    "eslint": "^3.12.2",
+    "eslint-config-walmart": "^1.1.0",
+    "eslint-plugin-filenames": "^1.1.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  }
+}
