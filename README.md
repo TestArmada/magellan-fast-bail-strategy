@@ -30,3 +30,6 @@ To enable this strategy with default threshold
 ```console
 $ ./node_modules/.bin/magellan --strategy_bail testarmada-magellan-fast-bail-strategy --test xxx
 ```
+
+## License
+Documentation in this project is licensed under Creative Commons Attribution 4.0 International License. Full details available at https://creativecommons.org/licenses/by/4.0
