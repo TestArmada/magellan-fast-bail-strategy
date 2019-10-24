@@ -12,7 +12,11 @@ module.exports = {
    * }
    */
   decide(info) {
-    // never bail
-    return info.failedTests.length > 0;
+    if (info.failedTests.length > 0) {
+      const failedTest = info.failedTests[info.failedTests.length - 1];
+      return failedTest.attempts === failedTest.maxAttempts;
+    }
+
+    return false;
   }
 };
