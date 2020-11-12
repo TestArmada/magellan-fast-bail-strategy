@@ -22,8 +22,7 @@
     "url": "https://github.com/TestArmada/magellan-fast-bail-strategy/issues"
   },
   "homepage": "https://github.com/TestArmada/magellan-fast-bail-strategy#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-eslint": "^7.1.1",
     "chai": "^3.4.1",
@@ -33,6 +32,6 @@
     "eslint-config-walmart": "^1.1.0",
     "eslint-plugin-filenames": "^1.1.0",
     "istanbul": "^0.4.5",
-    "mocha": "^3.2.0"
+    "mocha": "^8.2.1"
   }
 }
