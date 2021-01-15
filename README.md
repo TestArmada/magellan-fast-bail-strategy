@@ -1,3 +1,7 @@
+# :warning::warning: DEPRECATED :warning::warning:
+
+This project, and it's related TestArmada projects, will no longer be supported. No further work from the owners will be done, and no PRs will be reviewed.
+
 ## Important Notes About Versions
 
 Important: `testarmada-magellan-fast-bail-strategy` is only supported by Magellan version `10.1.0` or higher.
